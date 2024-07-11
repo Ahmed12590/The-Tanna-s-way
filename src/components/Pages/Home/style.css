@@ -1,0 +1,272 @@
+.main-section {
+  width: 100%;
+  height: 34.25rem;
+  background: linear-gradient(
+    255deg,
+    #9746b3 31.33%,
+    #9746b3 33.97%,
+    #8829a9 58.57%,
+    #6c2d82 83.57%
+  );
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner-heading {
+  color: #f9b341;
+  font-family: Poppins Medium, sans-serif;
+  font-size: 3.125rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  align-items: center;
+}
+
+.second-heading {
+  width: 14rem;
+  height: 3.6875rem;
+  color: #f9b341;
+  text-align: center;
+  font-family: Poppins Bold, sans-serif, sans-serif;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 109.5%;
+}
+
+.second-section {
+  padding-top: 50px;
+}
+
+.second-para {
+  max-width: 48.375rem;
+  height: 21.0625rem;
+  color: #8d8d8d;
+  font-family: Poppins Regular, sans-serif;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.third-heading {
+  color: #f9b341;
+  text-align: center;
+  font-family: Poppins Bold, sans-serif;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  align-items: center;
+  justify-content: center;
+}
+
+.third-para {
+  color: #8d8d8d;
+  text-align: center;
+  font-family: Poppins Light, sans-serif;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 120%;
+  padding-bottom: 50px;
+}
+
+.blog-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.box-col {
+  width: 24.4375rem;
+  height: 24.5625rem;
+  border-radius: 0rem 6.25rem;
+  background: linear-gradient(224deg, #411e4d 0.32%, #9746b3 99.68%);
+  box-shadow: 0px 4px 35px 2px rgba(0, 0, 0, 0.25);
+}
+
+.blog-title {
+  color: #8d8d8d;
+  font-family: Poppins Light, sans-serif;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 120%;
+}
+
+.blog-desc {
+  color: #f9b341;
+  font-family: Poppins Bold, sans-serif;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+}
+
+.Ebook-title {
+  height: 3.6875rem;
+  color: #f9b341;
+  text-align: center;
+  font-family: Poppins Bold, sans-serif;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 109.5%;
+  padding-top: 50px;
+  padding-bottom: 70px;
+}
+
+.Ebook-box {
+  width: 24.4375rem;
+  height: 24.5625rem;
+  border-radius: 0rem 6.25rem;
+  background: linear-gradient(224deg, #411e4d 0.32%, #9746b3 99.68%);
+  box-shadow: 0px 4px 35px 3px rgba(0, 0, 0, 0.25);
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.Ebook-text-heading {
+  width: 12.75rem;
+  color: #f9b341;
+  text-align: center;
+  font-family: Poppins Light, sans-serif;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 120%;
+}
+.Ebook-wrapper-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tanna-title {
+  height: 4.5rem;
+  color: #f9b341;
+  text-align: center;
+  font-family: Poppins Bold, sans-serif;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-top: 50px;
+}
+
+.Tannas-box {
+  width: 24.4375rem;
+  height: 24.5625rem;
+  border-radius: 0rem 6.25rem;
+  background: linear-gradient(224deg, #411e4d 0.32%, #9746b3 99.68%);
+  box-shadow: 0px 4px 35px 3px rgba(0, 0, 0, 0.25);
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.tannas-wrapper-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tannas-text-heading {
+  width: 12.75rem;
+  color: #f9b341;
+  text-align: center;
+  font-family: Poppins Light, sans-serif;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 120%;
+}
+
+.Newsletter-background {
+  height: 30.5625rem;
+  background: #67307a;
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Newsletter-parent {
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.Newsletter-col {
+  width: 55.4375rem;
+  height: 17.6875rem;
+  border-radius: 1.5625rem;
+  background: rgba(228, 228, 228, 0.2);
+  backdrop-filter: blur(17.5px);
+  padding-top: 30px;
+}
+.Newsletter-heading {
+  height: 4.4375rem;
+  color: #f9b341;
+  font-family: Poppins Medium, sans-serif;
+  font-size: 3.125rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-align: center;
+}
+
+.Newsletter-para {
+  height: 3.8125rem;
+  color: #fff;
+  text-align: center;
+  font-family: Poppins Light, sans-serif;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+#email {
+  border: none;
+  border-radius: 2.0625rem;
+  background: #f9b341;
+  box-shadow: 0px 4px 50px 0px rgba(0, 0, 0, 0.25);
+  width: 100%;
+  height: 3.4375rem;
+  flex-shrink: 0;
+  padding: 0 1.5rem;
+}
+
+#email::placeholder {
+  color: #67307a;
+  font-family: Poppins Light, sans-serif;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+#email:focus-visible {
+  outline: none;
+}
+.btn-subscribe {
+  width: 16.1875rem;
+  height: 3.4375rem;
+  border-radius: 3.0625rem;
+  border: 0px solid #fff;
+  background: #67307a;
+  color: #f9b341;
+  font-family: Poppins Light, sans-serif;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  position: absolute;
+  right: 0;
+}
