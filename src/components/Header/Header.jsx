@@ -25,7 +25,7 @@ const Header = () => {
             <NavLink to={`#`}>E-Books</NavLink>
           </li>
           <li>
-            <NavLink to={`#`}>Contact us</NavLink>
+            <NavLink to={`/Contact`}>Contact us</NavLink>
           </li>
         </ul>
       </nav>
