@@ -1,4 +1,5 @@
 import { NavLink } from "react-router-dom";
+import siteLogo from "./img/logo.png";
 import "./style.css";
 
 const Header = () => {
@@ -7,7 +8,9 @@ const Header = () => {
       <nav className="main-header">
         <ul className="site-logo">
           <li>
-            <NavLink to={`/`}>Logo</NavLink>
+            <NavLink to={`/`}>
+              <img src={siteLogo} alt="site logo" />
+            </NavLink>
           </li>
         </ul>
 

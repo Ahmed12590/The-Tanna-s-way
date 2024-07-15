@@ -7,7 +7,9 @@
   align-items: center;
   justify-content: space-between;
 }
-
+.site-logo{
+  padding-top: 2rem;
+}
 .header li {
   list-style: none;
 }
