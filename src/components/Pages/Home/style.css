@@ -233,7 +233,7 @@
   line-height: normal;
 }
 
-#email {
+.Newsletter-col #email {
   border: none;
   border-radius: 2.0625rem;
   background: #f9b341;
@@ -244,7 +244,7 @@
   padding: 0 1.5rem;
 }
 
-#email::placeholder {
+.Newsletter-col #email::placeholder {
   color: #67307a;
   font-family: Poppins Light, sans-serif;
   font-size: 1.125rem;
@@ -253,7 +253,7 @@
   line-height: normal;
 }
 
-#email:focus-visible {
+.Newsletter-col #email:focus-visible {
   outline: none;
 }
 .btn-subscribe {

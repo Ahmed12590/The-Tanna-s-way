@@ -10,7 +10,7 @@
   font-family: Poppins Semi Bold, sans-serif;
 }
 
-footer .head {
+.footer .head {
   font-family: Poppins Semi Bold, sans-serif;
   color: #221b1d;
   font-size: 1.5rem;
@@ -51,6 +51,7 @@ footer .head {
   gap: 0.5rem;
   padding-top: 1rem;
 }
+
 .contact-heading {
   width: 8.8125rem;
   color: #221b1d;
@@ -60,20 +61,23 @@ footer .head {
   font-weight: 600;
   line-height: normal;
 }
-.contact-parent{
+
+.contact-parent {
   display: flex;
   align-items: center;
   justify-content: start;
   gap: 0.5rem;
 }
-.contact-parent-email{
+
+.contact-parent-email {
   display: flex;
   align-items: center;
   justify-content: start;
   gap: 0.5rem;
   padding-top: 1rem;
 }
-.contact-parent-phone{
+
+.contact-parent-phone {
   display: flex;
   align-items: center;
   justify-content: start;
