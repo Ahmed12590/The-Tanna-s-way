@@ -37,6 +37,20 @@ footer .head {
   gap: 0.5rem;
 }
 
+.social-parent-instagram {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 0.5rem;
+  padding-top: 1rem;
+}
+.social-parent-twitter {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 0.5rem;
+  padding-top: 1rem;
+}
 .contact-heading {
   width: 8.8125rem;
   color: #221b1d;
@@ -45,4 +59,24 @@ footer .head {
   font-style: normal;
   font-weight: 600;
   line-height: normal;
+}
+.contact-parent{
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 0.5rem;
+}
+.contact-parent-email{
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 0.5rem;
+  padding-top: 1rem;
+}
+.contact-parent-phone{
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 0.5rem;
+  padding-top: 1rem;
 }

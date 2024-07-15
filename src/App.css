@@ -1,30 +1,46 @@
 @font-face {
-    font-family: Poppins Regular;
-    src: url("./fonts/Poppins-Regular.ttf");
-    font-weight: 500;
+  font-family: Poppins Regular;
+  src: url("./fonts/Poppins-Regular.ttf");
+  font-weight: 500;
 }
 
 @font-face {
-    font-family: Poppins Medium;
-    src: url("./fonts/Poppins-Medium.ttf");
+  font-family: Poppins Medium;
+  src: url("./fonts/Poppins-Medium.ttf");
 }
 
 @font-face {
-    font-family: Poppins Light;
-    src: url("./fonts/Poppins-Light.ttf");
+  font-family: Poppins Light;
+  src: url("./fonts/Poppins-Light.ttf");
 }
 
 @font-face {
-    font-family: Poppins Extra Bold;
-    src: url("./fonts/Poppins-ExtraBold.ttf");
+  font-family: Poppins Extra Bold;
+  src: url("./fonts/Poppins-ExtraBold.ttf");
 }
 
 @font-face {
-    font-family: Poppins Bold;
-    src: url("./fonts/Poppins-Bold.ttf");
+  font-family: Poppins Bold;
+  src: url("./fonts/Poppins-Bold.ttf");
 }
 
 @font-face {
-    font-family: Poppins Semi Bold;
-    src: url("./fonts/Poppins-SemiBold.ttf");
+  font-family: Poppins Semi Bold;
+  src: url("./fonts/Poppins-SemiBold.ttf");
+}
+
+html {
+  font-size: 16px;
+}
+
+@media (max-width: 991.98px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 375.98px) {
+  html {
+    font-size: 12px;
+  }
 }
