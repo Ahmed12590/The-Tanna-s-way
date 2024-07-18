@@ -1,0 +1,79 @@
+.ebook-section {
+  width: 100%;
+  height: 60vh;
+  background: linear-gradient(
+    255deg,
+    #9746b3 31.33%,
+    #9746b3 33.97%,
+    #8829a9 58.57%,
+    #6c2d82 83.57%
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ebook-banner-heading {
+  color: #f9b341;
+  font-family: Poppins Medium, sans-serif;
+  font-size: 3.125rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  align-items: center;
+}
+.ebook-heading-section {
+  width: 100%;
+  background: #fff;
+}
+.ebook-heading {
+  color: #f9b341;
+  text-align: center;
+  font-family: Poppins Medium, sans-serif;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.background-color {
+  background: linear-gradient(
+    252deg,
+    #411e4d 2.48%,
+    #a253bd 78.58%,
+    #9746b3 78.58%
+  );
+  padding-bottom: 5rem;
+}
+
+.Ebook-page-container{
+    
+    padding-left: 5rem;
+}
+
+.Ebook-page-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Ebook-page-box {
+  width: 24.4375rem;
+  height: 24.5625rem;
+  border-radius: 0rem 6.25rem;
+  background: linear-gradient(224deg, #411e4d 0.32%, #9746b3 99.68%);
+  box-shadow: 0px 4px 35px 3px rgba(0, 0, 0, 0.25);
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.Ebook-page-text-heading {
+  width: 100%;
+  color: #f9b341;
+  text-align: center;
+  font-family: Poppins Light, sans-serif;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 120%;
+}
