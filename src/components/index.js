@@ -4,6 +4,7 @@ import Home from "./Pages/Home";
 import About from "./Pages/About";
 import Contact from "./Pages/Contact";
 import Ebook from "./Pages/Ebook";
+import Podcast from "./Pages/Podcast";
 import Blogs from "./Pages/Blogs";
 
-export {Header,Footer, Home, About, Contact, Ebook ,Blogs }
+export {Header,Footer, Home, About, Contact, Ebook , Podcast, Blogs}

@@ -1,0 +1,161 @@
+.podcast-section {
+  width: 100%;
+  height: 34.25rem;
+  background: linear-gradient(
+    255deg,
+    #9746b3 31.33%,
+    #9746b3 33.97%,
+    #8829a9 58.57%,
+    #6c2d82 83.57%
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.poscast-banner-heading {
+  width: 25.9375rem;
+  height: 4.4375rem;
+  color: #f9b341;
+  font-family: Poppins Medium, sans-serif;
+  font-size: 3.125rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.podcast-page-heading {
+  width: 100%;
+  height: 3.6875rem;
+  color: #f9b341;
+  text-align: center;
+  font-family: Poppins Bold, sans-serif;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+.voice-slider {
+  margin-top: 5rem;
+  width: 100%;
+  height: 20.4375rem;
+  background: linear-gradient(
+    255deg,
+    #9746b3 31.33%,
+    #9746b3 33.97%,
+    #8829a9 58.57%,
+    #6c2d82 83.57%
+  );
+  padding-top: 2rem;
+  padding-left:  4rem;
+}
+
+
+.volume-parent {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.image-parent {
+  width: 26.375rem;
+  height: 15.875rem;
+  flex-shrink: 0;
+  border-radius: 0rem 1.875rem;
+  background: rgba(255, 255, 255, 0.1);
+  -webkit-backdrop-filter: blur(100px);
+  backdrop-filter: blur(100px);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding-left: 3rem;
+  gap: 1rem;
+}
+
+.interview-heading {
+  width: 11.875rem;
+  color: #f9b341;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.interview-sec-heading {
+  width: 8.4375rem;
+  color: #fff;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.span-text{
+
+    color: #F9B341;
+text-align: center;
+font-family: Poppins;
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+
+
+
+.podcast-categories {
+  padding: 5vh 1.5vw 5vh 1.5vw;
+}
+
+.cat-head-txt {
+  background: #f9b341;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  font-size: 3rem;
+  font-style: normal;
+  line-height: normal;
+  margin: 3rem auto;
+}
+
+.pod-cat-wrapper {
+  flex-direction: column;
+  display: flex;
+  gap: 1rem;
+}
+
+.pod-video {
+  width: 100%;
+  height: 22.5rem;
+  border-radius: 2.75rem;
+  background: linear-gradient(
+    260deg,
+    #9746b3 11.49%,
+    #8829a9 50%,
+    #411e4d 88.51%
+  );
+}
+
+.pod-title-small {
+  font-family: okemah light, sans-serif;
+  color: #f9b341;
+  font-size: 1.5rem;
+  font-style: normal;
+  line-height: 120%;
+}
+
+.pod-title {
+  font-family: okemah medium, sans-serif;
+  color: #f9b341;
+  font-size: 2rem;
+  font-style: normal;
+  line-height: 120%;
+}

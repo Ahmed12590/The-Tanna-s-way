@@ -28,7 +28,7 @@ const Header = () => {
             <NavLink to={`/Ebook`}>E-Books</NavLink>
           </li>
           <li>
-            <NavLink to={`/Ebook`}>Podcast Episodes</NavLink>
+            <NavLink to={`/Podcast`}>Podcast Episodes</NavLink>
           </li>
           <li>
             <NavLink to={`/Blogs`}>Blog & News</NavLink>
