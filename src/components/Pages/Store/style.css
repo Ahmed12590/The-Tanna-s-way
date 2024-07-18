@@ -1,0 +1,132 @@
+.store-section {
+    width: 100%;
+    height: 60vh;
+    background: linear-gradient(
+      255deg,
+      #9746b3 31.33%,
+      #9746b3 33.97%,
+      #8829a9 58.57%,
+      #6c2d82 83.57%
+    );
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .store-banner-heading {
+    color: #f9b341;
+    font-family: Poppins Medium, sans-serif;
+    font-size: 3.125rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    align-items: center;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+.advertisement-banner {
+    background: linear-gradient(84deg, #F1B749 2.98%, #DDA23A 74.69%);
+    width: 100%;
+    height: 28.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.customer-reviews {
+    background: var(--primary);
+    padding: 15vh 1.5vw 15vh 1.5vw;
+}
+
+.customers-review’s-head-txt {
+    text-align: center;
+    font-size: 3rem;
+    font-style: normal;
+    line-height: 109.5%;
+    background-clip: text;
+    background: linear-gradient(89deg, #FAC96D 27.63%, #D39529 72.37%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.testimonial-wrapper {
+    display: flex;
+    margin-top: 3rem;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: .5rem;
+    position: relative;
+}
+
+.tes-img-wrapper {
+    position: relative;
+}
+
+.tes-img {
+    position: absolute;
+    left: 2.5rem;
+    top: -1.5rem;
+}
+
+.tes-img-wrapper img {
+    max-width: 100%;
+}
+
+.ratting-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+}
+
+.ratting {
+    font-family: okemah regular, sans-serif;
+    color: var(--white);
+    font-size: 1.125rem;
+    font-style: normal;
+    line-height: normal;
+}
+
+.btn-testimonial {
+    width: 9.5rem;
+    height: 2.875rem;
+    border-radius: 1.4375rem;
+    border: 1px solid var(--white);
+    background: rgba(217, 217, 217, 0.00);
+    color: var(--input-bg-color);
+    font-family: okemah bold, sans-serif;
+    font-size: 1.125rem;
+    font-style: normal;
+    line-height: normal;
+}
+
+.review {
+    color: var(--white);
+    text-align: center;
+    font-size: 1.125rem;
+    font-style: normal;
+    line-height: normal;
+}
