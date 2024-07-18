@@ -1,7 +1,9 @@
 import "./style.css";
 import { Container, Row, Col } from "react-bootstrap";
 import Image from "./img/Group 74.png";
-
+import podcast from "./img/podcast img.png";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation } from "swiper/modules";
 const Home = () => {
   return (
     <main className="home">
@@ -193,16 +195,21 @@ const Home = () => {
       </section>
 
       <section className="PodCast-Episodse">
-        <Container fluid>
-          <div>{/* PodCast Episodse */}</div>
-        </Container>
+        <h2 className="podcast-heading">PodCast Episodse</h2>
+
+        <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
+          <SwiperSlide>
+            <div className="podcast-wrapper"><img src={podcast} alt="img/podcast img.png" /></div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="podcast-wrapper">{/* <img src={} alt="" /> */}</div>
+          </SwiperSlide>
+        </Swiper>
       </section>
 
       <section className="Tanna-Store">
         <Container fluid>
-          <div>
-            <h1 className="tanna-title">Tanna’s Store</h1>
-          </div>
+          <h2 className="tanna-title">Tanna’s Store</h2>
           <Row>
             <Col xs={12} md={12} lg={4} className="mt-5">
               <div className="tannas-wrapper-box">

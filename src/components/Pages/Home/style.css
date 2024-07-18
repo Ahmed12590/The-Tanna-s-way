@@ -149,6 +149,34 @@
   justify-content: center;
 }
 
+.podcast-heading {
+  width: 100%;
+  height: 3.6875rem;
+  color: #f9b341;
+  text-align: center;
+  font-family: Poppins Bold, sans-serif;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+.podcast-wrapper {
+  width: 100%;
+  height: 32.5625rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+
+
+
+
 .tanna-title {
   height: 4.5rem;
   color: #f9b341;

@@ -1,5 +1,7 @@
 import { Route, Routes } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import "swiper/css";
+import "swiper/css/navigation";
 import { Header,Footer, Home, About, Contact } from './components';
 
 function App() {
