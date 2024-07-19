@@ -3,7 +3,7 @@ import "./style.css";
 import testimonialImg from "./img/testimonial-img.png";
 import Ellipse from "./img/Ellipse 12.png";
 import rating from "./img/star.svg";
-import { Col, Container, Row } from "react-bootstrap";
+import { Col, Container, NavLink, Row } from "react-bootstrap";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { FreeMode, Navigation, Autoplay } from "swiper/modules";
 
@@ -12,14 +12,288 @@ import React from "react";
 const Store = () => {
   return (
     <main>
-
-<section className="store-section">
+      <section className="store-section">
         <h1 className="store-banner-heading"> Store Banner </h1>
       </section>
 
+      <section>
+        <Container fluid>
+          <div>
+            <h1 className="store-third-heading">What's Trending Now?</h1>
+          </div>
+        </Container>
+      </section>
 
+      <section className="store-backgorund-color">
+        <Container fluid>
+          <Row>
+            <Col xs={12} md={12} lg={4} className="trending-col">
+              <div className="store-trending-wrapper">
+                <div className="store-trending-col"></div>
+                <div className="trending-body ms-3"></div>
+              </div>
+            </Col>
+            <Col xs={12} md={12} lg={4} className="trending-col">
+              <div className="store-trending-wrapper">
+                <div className="store-trending-col"></div>
+                <div className="trending-body ms-3"></div>
+              </div>
+            </Col>
+            <Col xs={12} md={12} lg={4} className="trending-col">
+              <div className="store-trending-wrapper">
+                <div className="store-trending-col"></div>
+                <div className="trending-body ms-3"></div>
+              </div>
+            </Col>
+            <Col xs={12} md={12} lg={4} className="trending-col">
+              <div className="store-trending-wrapper">
+                <div className="store-trending-col"></div>
+                <div className="trending-body ms-3"></div>
+              </div>
+            </Col>
+            <Col xs={12} md={12} lg={4} className="trending-col">
+              <div className="store-trending-wrapper">
+                <div className="store-trending-col"></div>
+                <div className="trending-body ms-3"></div>
+              </div>
+            </Col>
+            <Col xs={12} md={12} lg={4} className="trending-col">
+              <div className="store-trending-wrapper">
+                <div className="store-trending-col"></div>
+                <div className="trending-body ms-3"></div>
+              </div>
+            </Col>
+            <Col xs={12} md={12} lg={4} className="trending-col">
+              <div className="store-trending-wrapper">
+                <div className="store-trending-col"></div>
+                <div className="trending-body ms-3"></div>
+              </div>
+            </Col>
+            <Col xs={12} md={12} lg={4} className="trending-col">
+              <div className="store-trending-wrapper">
+                <div className="store-trending-col"></div>
+                <div className="trending-body ms-3"></div>
+              </div>
+            </Col>
+            <Col xs={12} md={12} lg={4} className="trending-col">
+              <div className="store-trending-wrapper">
+                <div className="store-trending-col"></div>
+                <div className="trending-body ms-3"></div>
+              </div>
+            </Col>
+          </Row>
+          <div className="trending-btn-parent">
+            <NavLink>
+              <button className="trending-button">Load More</button>{" "}
+            </NavLink>
+          </div>
+        </Container>
+      </section>
 
+      <section>
+        <Container fluid>
+          <div>
+            <h1 className="category-heading">Shop By Category</h1>
+          </div>
+        </Container>
+      </section>
 
+      <section>
+        <Container fluid className="category-section">
+          <Row>
+            <Col xs={12} md={12} lg={3} className="store-category">
+              <div className="store-Category-wrapper">
+                <div className="store-Category-col"></div>
+                <div className="trending-body ms-3">
+                  <small className="trending-text">Metal Sign </small>
+                </div>
+              </div>
+            </Col>
+            <Col xs={12} md={12} lg={3} className="store-category">
+              <div className="store-Category-wrapper">
+                <div className="store-Category-col"></div>
+                <div className="trending-body ms-3">
+                  <small className="trending-text">Hawaiian Shirt </small>
+                </div>
+              </div>
+            </Col>
+            <Col xs={12} md={12} lg={3} className="store-category">
+              <div className="store-Category-wrapper">
+                <div className="store-Category-col"></div>
+                <div className="trending-body ms-3">
+                  <small className="trending-text">Hand Bag & wallets </small>
+                </div>
+              </div>
+            </Col>
+            <Col xs={12} md={12} lg={3} className="store-category">
+              <div className="store-Category-wrapper">
+                <div className="store-Category-col"></div>
+                <div className="trending-body ms-3">
+                  <small className="trending-text">Sublimation </small>
+                </div>
+              </div>
+            </Col>
+            <Col xs={12} md={12} lg={3} className="store-category">
+              <div className="store-Category-wrapper">
+                <div className="store-Category-col"></div>
+                <div className="trending-body ms-3">
+                  <small className="trending-text">KId/Baby </small>
+                </div>
+              </div>
+            </Col>
+            <Col xs={12} md={12} lg={3} className="store-category">
+              <div className="store-Category-wrapper">
+                <div className="store-Category-col"></div>
+                <div className="trending-body ms-3">
+                  <small className="trending-text">Decal & Stickers </small>
+                </div>
+              </div>
+            </Col>
+            <Col xs={12} md={12} lg={3} className="store-category">
+              <div className="store-Category-wrapper">
+                <div className="store-Category-col"></div>
+                <div className="trending-body ms-3">
+                  <small className="trending-text">Tumbler</small>
+                </div>
+              </div>
+            </Col>
+            <Col xs={12} md={12} lg={3} className="store-category">
+              <div className="store-Category-wrapper">
+                <div className="store-Category-col"></div>
+                <div className="trending-body ms-3">
+                  <small className="trending-text">Hat & Caps </small>
+                </div>
+              </div>
+            </Col>
+          </Row>
+        </Container>
+      </section>
+
+      <section>
+        <Container fluid>
+          <div>
+            <h1 className="Arrival-heading">Shop New Arrival</h1>
+          </div>
+        </Container>
+      </section>
+      <section>
+        <Container fluid className="Arrival-section">
+          <Row>
+            <Col xs={12} md={12} lg={3} className="mt-5">
+              <div className="arrival-wrapper-box">
+                <div className="arrival-box">
+                  <div className="arrival-text">
+                    <p className="arrival-price">$29.99</p>
+                  </div>
+                </div>
+              </div>
+            </Col>
+            <Col xs={12} md={12} lg={3} className="mt-5">
+              <div className="arrival-wrapper-box">
+                <div className="arrival-box">
+                  <div className="arrival-text">
+                    <p className="arrival-price">$29.99</p>
+                  </div>
+                </div>
+              </div>
+            </Col>
+            <Col xs={12} md={12} lg={3} className="mt-5">
+              <div className="arrival-wrapper-box">
+                <div className="arrival-box">
+                  <div className="arrival-text">
+                    <p className="arrival-price">$29.99</p>
+                  </div>
+                </div>
+              </div>
+            </Col>
+            <Col xs={12} md={12} lg={3} className="mt-5">
+              <div className="arrival-wrapper-box">
+                <div className="arrival-box">
+                  <div className="arrival-text">
+                    <p className="arrival-price">$29.99</p>
+                  </div>
+                </div>
+              </div>
+            </Col>
+            <Col xs={12} md={12} lg={3} className="mt-5">
+              <div className="arrival-wrapper-box">
+                <div className="arrival-box">
+                  <div className="arrival-text">
+                    <p className="arrival-price">$29.99</p>
+                  </div>
+                </div>
+              </div>
+            </Col>
+            <Col xs={12} md={12} lg={3} className="mt-5">
+              <div className="arrival-wrapper-box">
+                <div className="arrival-box">
+                  <div className="arrival-text">
+                    <p className="arrival-price">$29.99</p>
+                  </div>
+                </div>
+              </div>
+            </Col>
+            <Col xs={12} md={12} lg={3} className="mt-5">
+              <div className="arrival-wrapper-box">
+                <div className="arrival-box">
+                  <div className="arrival-text">
+                    <p className="arrival-price">$29.99</p>
+                  </div>
+                </div>
+              </div>
+            </Col>
+            <Col xs={12} md={12} lg={3} className="mt-5">
+              <div className="arrival-wrapper-box">
+                <div className="arrival-box">
+                  <div className="arrival-text">
+                    <p className="arrival-price">$29.99</p>
+                  </div>
+                </div>
+              </div>
+            </Col>
+            <Col xs={12} md={12} lg={3} className="mt-5">
+              <div className="arrival-wrapper-box">
+                <div className="arrival-box">
+                  <div className="arrival-text">
+                    <p className="arrival-price">$29.99</p>
+                  </div>
+                </div>
+              </div>
+            </Col>
+            <Col xs={12} md={12} lg={3} className="mt-5">
+              <div className="arrival-wrapper-box">
+                <div className="arrival-box">
+                  <div className="arrival-text">
+                    <p className="arrival-price">$29.99</p>
+                  </div>
+                </div>
+              </div>
+            </Col>
+            <Col xs={12} md={12} lg={3} className="mt-5">
+              <div className="arrival-wrapper-box">
+                <div className="arrival-box">
+                  <div className="arrival-text">
+                    <p className="arrival-price">$29.99</p>
+                  </div>
+                </div>
+              </div>
+            </Col>
+            <Col xs={12} md={12} lg={3} className="mt-5">
+              <div className="arrival-wrapper-box">
+                <div className="arrival-box">
+                  <div className="arrival-text">
+                    <p className="arrival-price">$29.99</p>
+                  </div>
+                </div>
+              </div>
+            </Col>
+          </Row>
+        </Container>
+      </section>
+
+      <section className="store-ads-section">
+        <h1 className="ads-banner-heading"> Banner Ads Design </h1>
+      </section>
 
       <section className="customer-reviews">
         <h2 className="customers-review’s-head-txt">Customers Review’s</h2>
@@ -57,7 +331,6 @@ const Store = () => {
           modules={[FreeMode, Navigation, Autoplay]}
           className="mySwiper"
         >
-          
           <SwiperSlide>
             <div className="testimonial-wrapper">
               <div className="tes-img-wrapper">
@@ -74,7 +347,7 @@ const Store = () => {
               </div>
 
               <div className="ratting-wrapper">
-              <img src={rating } alt="star.svg" />
+                <img src={rating} alt="star.svg" />
                 <small className="ratting">5.0</small>
               </div>
 
@@ -89,7 +362,7 @@ const Store = () => {
           <SwiperSlide>
             <div className="testimonial-wrapper">
               <div className="tes-img-wrapper">
-              <img src={Ellipse} alt="Ellipse 12.png" />
+                <img src={Ellipse} alt="Ellipse 12.png" />
                 <img
                   src={testimonialImg}
                   className="tes-img"
@@ -102,7 +375,7 @@ const Store = () => {
               </div>
 
               <div className="ratting-wrapper">
-              <img src={rating } alt="star.svg" />
+                <img src={rating} alt="star.svg" />
                 <small className="ratting">5.0</small>
               </div>
 
@@ -117,7 +390,7 @@ const Store = () => {
           <SwiperSlide>
             <div className="testimonial-wrapper">
               <div className="tes-img-wrapper">
-              <img src={Ellipse} alt="Ellipse 12.png" />
+                <img src={Ellipse} alt="Ellipse 12.png" />
                 <img
                   src={testimonialImg}
                   className="tes-img"
@@ -130,7 +403,7 @@ const Store = () => {
               </div>
 
               <div className="ratting-wrapper">
-              <img src={rating } alt="star.svg" />
+                <img src={rating} alt="star.svg" />
                 <small className="ratting">5.0</small>
               </div>
 
@@ -145,7 +418,7 @@ const Store = () => {
           <SwiperSlide>
             <div className="testimonial-wrapper">
               <div className="tes-img-wrapper">
-              <img src={Ellipse} alt="Ellipse 12.png" />
+                <img src={Ellipse} alt="Ellipse 12.png" />
                 <img
                   src={testimonialImg}
                   className="tes-img"
@@ -158,7 +431,7 @@ const Store = () => {
               </div>
 
               <div className="ratting-wrapper">
-              <img src={rating } alt="star.svg" />
+                <img src={rating} alt="star.svg" />
                 <small className="ratting">5.0</small>
               </div>
 
@@ -173,7 +446,7 @@ const Store = () => {
           <SwiperSlide>
             <div className="testimonial-wrapper">
               <div className="tes-img-wrapper">
-              <img src={Ellipse} alt="Ellipse 12.png" />
+                <img src={Ellipse} alt="Ellipse 12.png" />
                 <img
                   src={testimonialImg}
                   className="tes-img"
@@ -186,7 +459,7 @@ const Store = () => {
               </div>
 
               <div className="ratting-wrapper">
-              <img src={rating } alt="star.svg" />
+                <img src={rating} alt="star.svg" />
                 <small className="ratting">5.0</small>
               </div>
 

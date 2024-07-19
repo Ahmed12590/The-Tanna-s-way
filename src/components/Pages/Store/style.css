@@ -1,132 +1,291 @@
 .store-section {
-    width: 100%;
-    height: 60vh;
-    background: linear-gradient(
-      255deg,
-      #9746b3 31.33%,
-      #9746b3 33.97%,
-      #8829a9 58.57%,
-      #6c2d82 83.57%
-    );
-  
+  width: 100%;
+  height: 60vh;
+  background: linear-gradient(
+    255deg,
+    #9746b3 31.33%,
+    #9746b3 33.97%,
+    #8829a9 58.57%,
+    #6c2d82 83.57%
+  );
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.store-banner-heading {
+  color: #f9b341;
+  font-family: Poppins Medium, sans-serif;
+  font-size: 3.125rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  align-items: center;
+}
+.store-third-heading {
+  height: 4.5rem;
+  color: #f9b341;
+  text-align: center;
+  font-family: Poppins Bold, sans-serif;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 109.5%;
+  padding-top: 3rem;
+  padding-bottom: 5rem;
+}
+
+.store-backgorund-color {
+  width: 100%;
+
+  flex-shrink: 0;
+  background: linear-gradient(233deg, #411e4d 31.1%, #9746b3 93.89%);
+  display: flex;
+  padding-top: 5rem;
+ 
+}
+.store-trending-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+.store-trending-col {
+  width: 24.4375rem;
+  height: 24.5625rem;
+  border-radius: 0rem 6.25rem;
+  background: linear-gradient(224deg, #411e4d 0.32%, #9746b3 99.68%);
+  box-shadow: 0px 4px 35px 2px rgba(0, 0, 0, 0.25);
+}
+
+.trending-btn-parent{
     display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .store-banner-heading {
+align-items: center;
+justify-content: center;
+padding-top: 2rem;
+padding-bottom: 2rem;
+}
+
+.trending-button{
+color: #F9B341;
+text-align: center;
+font-family: Poppins;
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 400;
+line-height: 109.5%; 
+background-color: transparent;
+border: none;
+}
+
+.category-section{
+width: 100%;
+}
+.store-category{
+    padding-bottom: 2rem;
+}
+.category-heading {
+    
     color: #f9b341;
-    font-family: Poppins Medium, sans-serif;
-    font-size: 3.125rem;
+    text-align: center;
+    font-family: Poppins Bold, sans-serif;
+    font-size: 3rem;
     font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    align-items: center;
+    font-weight: 700;
+    line-height: 109.5%;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+   
   }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-.advertisement-banner {
-    background: linear-gradient(84deg, #F1B749 2.98%, #DDA23A 74.69%);
-    width: 100%;
-    height: 28.25rem;
+.store-Category-wrapper{
     display: flex;
-    align-items: center;
-    justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+
+  .store-Category-col{
+    width: 24.4375rem;
+    height: 24.5625rem;
+    border-radius: 0rem 6.25rem;
+    background: linear-gradient(224deg, #411e4d 0.32%, #9746b3 99.68%);
+    box-shadow: 0px 4px 35px 2px rgba(0, 0, 0, 0.25);
+}
+.trending-col{
+    padding-bottom: 3rem;
+}
+.trending-text{
+    color: #F9B341;
+text-align: center;
+font-family: Poppins Regular, sans-serif;
+font-size: 1.375rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.trending-price{
+    width: 12.75rem;
+  color: #f9b341;
+  text-align: center;
+  font-family: Poppins Light, sans-serif;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 120%;
+}
+
+.Arrival-heading{
+    color: #f9b341;
+    text-align: center;
+    font-family: Poppins Bold, sans-serif;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 109.5%;
+    padding-top: 3rem;
+    padding-bottom: 3rem;  
+}
+
+.arrival-wrapper-box{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.arrival-box {
+    width: 24.4375rem;
+  height: 24.5625rem;
+  border-radius: 0rem 6.25rem;
+  background: linear-gradient(224deg, #411e4d 0.32%, #9746b3 99.68%);
+  box-shadow: 0px 4px 35px 3px rgba(0, 0, 0, 0.25);
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.arrival-price{
+    color: #f9b341;
+    text-align: center;
+    padding: 0 1rem;
+    font-family: Poppins Light, sans-serif;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 120%;
+    border: 1px solid #F9B341;
+    border-radius: 20px;
+}
+
+
+
+
+
+
+
+.store-ads-section{
+    height: 31.25rem;
+    background: linear-gradient(233deg, #411E4D 19.75%, #9746B3 93.89%);
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: 5rem;
+}
+
+.ads-banner-heading{
+   
+    height: 2.9375rem;
+    color: #F9B341;
+text-align: center;
+font-family: Poppins Medium, sans-serif;
+font-size: 3rem;
+font-style: normal;
+font-weight: 700;
+line-height: 109.5%; 
+}
+.advertisement-banner {
+  background: linear-gradient(84deg, #f1b749 2.98%, #dda23a 74.69%);
+  width: 100%;
+  height: 28.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .customer-reviews {
-    background: var(--primary);
-    padding: 15vh 1.5vw 15vh 1.5vw;
+  padding: 15vh 1.5vw 15vh 1.5vw;
 }
 
 .customers-review’s-head-txt {
+height: 2.9375rem;
+    color: #F9B341;
     text-align: center;
+    font-family: Poppins Extra Bold, sans-serif;
     font-size: 3rem;
     font-style: normal;
-    line-height: 109.5%;
-    background-clip: text;
-    background: linear-gradient(89deg, #FAC96D 27.63%, #D39529 72.37%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+    line-height: 109.5%; 
 }
 
 .testimonial-wrapper {
-    display: flex;
-    margin-top: 3rem;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    gap: .5rem;
-    position: relative;
+  display: flex;
+  margin-top: 3rem;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 0.5rem;
+  position: relative;
 }
 
 .tes-img-wrapper {
-    position: relative;
+  position: relative;
 }
 
 .tes-img {
-    position: absolute;
-    left: 2.5rem;
-    top: -1.5rem;
+  position: absolute;
+  left: 2.5rem;
+  top: -1.5rem;
 }
 
 .tes-img-wrapper img {
-    max-width: 100%;
+  max-width: 100%;
 }
 
 .ratting-wrapper {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: .5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
 }
 
 .ratting {
-    font-family: okemah regular, sans-serif;
-    color: var(--white);
-    font-size: 1.125rem;
-    font-style: normal;
-    line-height: normal;
+  font-family: okemah regular, sans-serif;
+  color: var(--white);
+  font-size: 1.125rem;
+  font-style: normal;
+  line-height: normal;
 }
 
 .btn-testimonial {
-    width: 9.5rem;
-    height: 2.875rem;
-    border-radius: 1.4375rem;
-    border: 1px solid var(--white);
-    background: rgba(217, 217, 217, 0.00);
-    color: var(--input-bg-color);
-    font-family: okemah bold, sans-serif;
-    font-size: 1.125rem;
-    font-style: normal;
-    line-height: normal;
+  width: 9.5rem;
+  height: 2.875rem;
+  border-radius: 1.4375rem;
+  border: 1px solid #F9B341;
+  background: rgba(217, 217, 217, 0);
+  color: #F9B341;
+  font-family: okemah bold, sans-serif;
+  font-size: 1.125rem;
+  font-style: normal;
+  line-height: normal;
 }
 
 .review {
-    color: var(--white);
-    text-align: center;
-    font-size: 1.125rem;
-    font-style: normal;
-    line-height: normal;
+  color: var(--white);
+  text-align: center;
+  font-size: 1.125rem;
+  font-style: normal;
+  line-height: normal;
 }
