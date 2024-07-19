@@ -1,0 +1,109 @@
+.Category-section {
+  width: 100%;
+  height: 60vh;
+  background: linear-gradient(
+    255deg,
+    #9746b3 31.33%,
+    #9746b3 33.97%,
+    #8829a9 58.57%,
+    #6c2d82 83.57%
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Category-banner-heading {
+  width: 25.9375rem;
+  height: 4.4375rem;
+  color: #f9b341;
+  font-family: Poppins Medium, sans-serif;
+  font-size: 3.125rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.T-Shirt-text {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+.T-Shirt-text h2 {
+  width: 18.6875rem;
+  height: 2.625rem;
+  color: #f9b341;
+  text-align: center;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: Poppins medium, sans-serif;
+  font-size: 2.25rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 109.5%;
+}
+.T-Shirt-text small {
+  width: 18.6875rem;
+  height: 1.5rem;
+  color: #f9b341;
+  text-align: center;
+  font-family: Poppins light, sans-serif;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 109.5%;
+  padding-left: 2rem;
+}
+
+.T-shirt-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+.T-shirt-Col {
+  width: 100%;
+  height: 19rem;
+  border-radius: 0rem 3.75rem;
+  background: linear-gradient(
+    255deg,
+    #9746b3 31.33%,
+    #9746b3 33.97%,
+    #8829a9 58.57%,
+    #6c2d82 83.57%
+  );
+}
+
+.main-parent {
+  align-items: self-start;
+  justify-content: flex-start;
+}
+
+.hawaiin-hea {
+  width: 11.1875rem;
+  height: 2.3125rem;
+  color: #f9b341;
+  font-family: Poppins;
+  font-size: 1.375rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.hawaiin-text {
+  width: 16.9375rem;
+  height: 4.125rem;
+  color: #c1c1c1;
+  font-family: Poppins;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 109.5%;
+}
+.hawaiin-price {
+  width: 4.1875rem;
+  height: 1.8125rem;
+  color: #f9b341;
+  font-family: Poppins;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}

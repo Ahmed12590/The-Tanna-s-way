@@ -14,7 +14,7 @@ const Home = () => {
       <section className="second-section">
         <Container fluid>
           <Row>
-            <Col xs={12} md={12} lg={6}>
+            <Col xs={12} md={12} lg={6} className="about-image">
               <img src={Image} alt="Group 74" className="img-fluid" />
             </Col>
 

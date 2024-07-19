@@ -12,11 +12,11 @@ import {
   Blogs,
   Podcast,
   Store,
+  Category,
   Contact,
 } from "./components";
 
 function App() {
-
   return (
     <>
       <Header />
@@ -27,6 +27,7 @@ function App() {
         <Route path={`/blogs`} element={<Blogs />} />
         <Route path={`/podcast`} element={<Podcast />} />
         <Route path={`/store`} element={<Store />} />
+        <Route path={`/category`} element={<Category />} />
         <Route path={`/contact`} element={<Contact />} />
       </Routes>
       <Footer />

@@ -7,5 +7,6 @@ import Ebook from "./Pages/Ebook";
 import Podcast from "./Pages/Podcast";
 import Blogs from "./Pages/Blogs";
 import Store from "./Pages/Store";
+import Category from "./Pages/Category";
 
-export {Header,Footer, Home, About, Contact, Ebook , Podcast,Store, Blogs}
+export {Header,Footer, Home, About, Contact, Ebook , Podcast,Store, Blogs, Category}

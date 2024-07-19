@@ -39,7 +39,6 @@
 .second-section {
   padding-top: 50px;
 }
-
 .second-para {
   max-width: 48.375rem;
   color: #8d8d8d;
@@ -170,12 +169,6 @@
   justify-content: center;
 }
 
-
-
-
-
-
-
 .tanna-title {
   height: 4.5rem;
   color: #f9b341;
@@ -297,4 +290,13 @@
   line-height: normal;
   position: absolute;
   right: 0;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

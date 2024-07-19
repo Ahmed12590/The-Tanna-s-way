@@ -75,7 +75,7 @@ const Store = () => {
                 <div className="trending-body ms-3"></div>
               </div>
             </Col>
-            <Col xs={12} md={12} lg={4} className="trending-col">
+            <Col xs={12} md={12} lg={4} className="trending-col">  
               <div className="store-trending-wrapper">
                 <div className="store-trending-col"></div>
                 <div className="trending-body ms-3"></div>
