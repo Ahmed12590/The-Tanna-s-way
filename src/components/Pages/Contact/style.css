@@ -14,10 +14,9 @@
 }
 
 .contact-banner-heading {
-  width: 25.9375rem;
-  height: 4.4375rem;
+ 
   color: #f9b341;
-  font-family: Poppins;
+  font-family: Poppins Medium, sans-serif;
   font-size: 3.125rem;
   font-style: normal;
   font-weight: 500;

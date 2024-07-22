@@ -195,7 +195,7 @@ const Home = () => {
       </section>
 
       <section className="PodCast-Episodse">
-        <h2 className="podcast-heading">PodCast Episodse</h2>
+        <h2 className="podcast-heading">PodCast Episodes</h2>
 
         <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
           <SwiperSlide>

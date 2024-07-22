@@ -55,7 +55,7 @@ const Footer = () => {
                   <img src={fb} alt="facebook.svg" />
                 </div>
                 <div className="social-text">
-                  <div>Lorem Ipsum</div>
+                  <div>Facebook</div>
                 </div>
               </div>
               <div className="social-parent-instagram">
@@ -63,7 +63,7 @@ const Footer = () => {
                   <img src={instagram} alt="instagram.svg.svg" />
                 </div>
                 <div className="social-text">
-                  <div>Lorem Ipsum</div>
+                  <div>Instagram</div>
                 </div>
               </div>
               <div className="social-parent-twitter">
@@ -71,7 +71,7 @@ const Footer = () => {
                   <img src={twitter} alt="twitter.svg.svg" />
                 </div>
                 <div className="social-text">
-                  <div>Lorem Ipsum</div>
+                  <div>Twitter</div>
                 </div>
               </div>
             </div>

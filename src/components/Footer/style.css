@@ -32,7 +32,7 @@
 .footer-logo-wrapper {
   width: 100%;
 }
-.footer-logo-wrapper img{
+.footer-logo-wrapper img {
   max-width: 100%;
 }
 .social-parent {
@@ -88,4 +88,16 @@
   justify-content: start;
   gap: 0.5rem;
   padding-top: 1rem;
+}
+.social-links img:hover {
+  transform: scale(1.1);
+  filter: brightness(1.2);
+}
+.social-instagram img:hover {
+  transform: scale(1.1);
+  filter: brightness(1.2);
+}
+.social-twitter img:hover {
+  transform: scale(1.1);
+  filter: brightness(1.2);
 }
