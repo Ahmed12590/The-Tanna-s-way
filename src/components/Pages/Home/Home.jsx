@@ -202,7 +202,7 @@ const Home = () => {
             <div className="podcast-wrapper"><img src={podcast} alt="img/podcast img.png" /></div>
           </SwiperSlide>
           <SwiperSlide>
-          <div className="podcast-wrapper"><img src={podcast} alt="img/podcast img.png" /></div>git
+          <div className="podcast-wrapper"><img src={podcast} alt="img/podcast img.png" /></div>
           </SwiperSlide>
         </Swiper>
       </section>
