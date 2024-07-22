@@ -14,8 +14,8 @@ const Podcast = () => {
         <h1 className="poscast-banner-heading">Podcast Episodes</h1>
       </section>
 
-      <section className="PodCast-Episodse">
-        <h2 className="podcast-page-heading">PodCast Episodse</h2>
+      <section className="PodCast-Episodese">
+        <h2 className="podcast-page-heading">PodCast Episodes</h2>
 
         <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
           <SwiperSlide>
@@ -134,7 +134,7 @@ const Podcast = () => {
                 <div className="pod-video"></div>
 
                 <div className="pod-title-wrapper">
-                  <small className="pod-title-small">Episod:01</small>
+                  <small className="pod-title-small">Episode:01</small>
                   <p className="pod-title">News and Politics</p>
                 </div>
               </div>
@@ -144,7 +144,7 @@ const Podcast = () => {
                 <div className="pod-video"></div>
 
                 <div className="pod-title-wrapper">
-                  <small className="pod-title-small">Episod:01</small>
+                  <small className="pod-title-small">Episode:01</small>
                   <p className="pod-title">News and Politics</p>
                 </div>
               </div>
@@ -154,7 +154,7 @@ const Podcast = () => {
                 <div className="pod-video"></div>
 
                 <div className="pod-title-wrapper">
-                  <small className="pod-title-small">Episod:01</small>
+                  <small className="pod-title-small">Episode:01</small>
                   <p className="pod-title">Business</p>
                 </div>
               </div>
@@ -164,7 +164,7 @@ const Podcast = () => {
                 <div className="pod-video"></div>
 
                 <div className="pod-title-wrapper">
-                  <small className="pod-title-small">Episod:01</small>
+                  <small className="pod-title-small">Episode:01</small>
                   <p className="pod-title">Technology</p>
                 </div>
               </div>
@@ -174,7 +174,7 @@ const Podcast = () => {
                 <div className="pod-video"></div>
 
                 <div className="pod-title-wrapper">
-                  <small className="pod-title-small">Episod:01</small>
+                  <small className="pod-title-small">Episode:01</small>
                   <p className="pod-title">Comedy</p>
                 </div>
               </div>
@@ -184,7 +184,7 @@ const Podcast = () => {
                 <div className="pod-video"></div>
 
                 <div className="pod-title-wrapper">
-                  <small className="pod-title-small">Episod:01</small>
+                  <small className="pod-title-small">Episode:01</small>
                   <p className="pod-title">True Crime</p>
                 </div>
               </div>

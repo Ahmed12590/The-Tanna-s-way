@@ -42,7 +42,7 @@
 
 .second-about-para {
   max-width: 48.375rem;
-  height: 21.0625rem;
+  height: auto;
   color: #8d8d8d;
   font-family: Poppins Regular, sans-serif;
   font-size: 1.125rem;

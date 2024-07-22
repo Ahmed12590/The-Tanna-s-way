@@ -90,6 +90,7 @@
   height: 27.1875rem;
   border-radius: 2.625rem;
   background: linear-gradient(180deg, #411e4d 0%, #9746b3 100%);
+  margin-top: 3rem;
 }
 
 .latest-news {
@@ -312,7 +313,7 @@
 }
 
 .news-box {
-  width: 21.9375rem;
+  width: 100%;
   margin: 1rem auto;
   height: 20.3125rem;
   border-radius: 2.625rem;
