@@ -39,7 +39,7 @@
 .store-backgorund-color {
   width: 100%;
 
-  flex-shrink: 0;
+  
   background: linear-gradient(233deg, #411e4d 31.1%, #9746b3 93.89%);
   display: flex;
   padding-top: 5rem;
