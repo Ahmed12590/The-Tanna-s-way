@@ -1,9 +1,9 @@
 import "./style.css";
 import { NavLink } from "react-router-dom";
 import Image from "./img/image-29 1.png";
-import fb from "./img/facebook.svg";
-import instagram from "./img/instagram.svg.svg";
-import twitter from "./img/twitter.svg.svg";
+import youtube from "./img/youtube.svg";
+import tiktok from "./img/tiktok.svg";
+import pinterest from "./img/pinterest.svg";
 import location from "./img/location.svg";
 import email from "./img/email.svg";
 import phone from "./img/phone.svg";
@@ -50,28 +50,60 @@ const Footer = () => {
           <Col sm={12} md={6} lg={3}>
             <div className="mt-3">
               <h4 className="head">Social Links </h4>
-              <div className="social-parent">
-                <div className="social-links">
-                  <img src={fb} alt="facebook.svg" />
+              <a
+                href="https://www.youtube.com/channel/UC0YrFuHfnTzcfOw-ASpcy0g"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div className="social-parent">
+                  <div className="social-links">
+                    <img src={youtube} alt="facebook.svg" />
+                  </div>
+                  <div className="social-text">
+                    <div>Youtube</div>
+                  </div>
+                </div>
+              </a>
+
+              <div className="social-parent-tiktok">
+                <div className="social-tiktok">
+                  <a
+                    href="https://www.tiktok.com/@thetannaway"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img src={tiktok} alt="tiktok.svg" />
+                  </a>
                 </div>
                 <div className="social-text">
-                  <div>Facebook</div>
+                  <a
+                    href="https://www.tiktok.com/@thetannaway"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <div>Tiktok</div>
+                  </a>
                 </div>
               </div>
-              <div className="social-parent-instagram">
-                <div className="social-instagram">
-                  <img src={instagram} alt="instagram.svg.svg" />
+
+              <div className="social-parent-pinterest">
+                <div className="social-pinterest">
+                  <a
+                    href="https://www.pinterest.com/thetannaway/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img src={pinterest} alt="pinterest.svg" />
+                  </a>
                 </div>
                 <div className="social-text">
-                  <div>Instagram</div>
-                </div>
-              </div>
-              <div className="social-parent-twitter">
-                <div className="social-twitter">
-                  <img src={twitter} alt="twitter.svg.svg" />
-                </div>
-                <div className="social-text">
-                  <div>Twitter</div>
+                  <a
+                    href="https://www.pinterest.com/thetannaway/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <div>Pinterest</div>
+                  </a>
                 </div>
               </div>
             </div>
@@ -93,7 +125,7 @@ const Footer = () => {
                   <img src={email} alt="email.svg" />
                 </div>
                 <div className="contact-email-text">
-                  <div>Lorem Ipsum</div>
+                  <div>thetannaway@gmail.com</div>
                 </div>
               </div>
               <div className="contact-parent-phone">

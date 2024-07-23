@@ -42,14 +42,14 @@
   gap: 0.5rem;
 }
 
-.social-parent-instagram {
+.social-parent-tiktok {
   display: flex;
   align-items: center;
   justify-content: start;
   gap: 0.5rem;
   padding-top: 1rem;
 }
-.social-parent-twitter {
+.social-parent-pinterest {
   display: flex;
   align-items: center;
   justify-content: start;
@@ -100,4 +100,10 @@
 .social-twitter img:hover {
   transform: scale(1.1);
   filter: brightness(1.2);
+}
+a {
+  color: rgba(var(--bs-link-color-rgb), var(--bs-link-opacity, 1));
+  text-decoration: underline;
+  text-decoration: none;
+  color: #333;
 }
