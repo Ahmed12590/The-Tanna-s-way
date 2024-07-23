@@ -1,3 +1,9 @@
+header.header {
+  position: sticky;
+  top: 0;
+  z-index: 99;
+}
+
 .main-header {
   width: 100%;
   background: #411e4d;
@@ -34,11 +40,7 @@ ul {
 }
 
 .hamburger .line {
-  background: linear-gradient(
-    90deg,
-    #F9B341 0%,
-    #ffac25 100%
-  );
+  background: linear-gradient(90deg, #f9b341 0%, #ffac25 100%);
   -webkit-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;

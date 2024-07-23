@@ -43,7 +43,7 @@ const Header = () => {
         <input type="checkbox" id="checkbox" />
         <ul class="mob d-flex align-items-center justify-content-between">
           <li class="mob-logo">
-            <NavLink to="./index.html">
+            <NavLink to="./index.html"> 
               <img src={siteLogo} alt="site logo" />
             </NavLink>
           </li>
