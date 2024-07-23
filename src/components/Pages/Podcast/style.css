@@ -13,8 +13,6 @@
   justify-content: center;
 }
 .poscast-banner-heading {
-  width: 25.9375rem;
-  height: 4.4375rem;
   color: #f9b341;
   font-family: Poppins Medium, sans-serif;
   font-size: 3.125rem;
@@ -33,7 +31,7 @@
   font-weight: 600;
   line-height: normal;
   padding-top: 3rem;
-    padding-bottom: 6rem;
+  padding-bottom: 6rem;
 }
 
 .voice-slider {
@@ -48,14 +46,13 @@
     #6c2d82 83.57%
   );
   padding-top: 2rem;
-  padding-left:  4rem;
+  padding-left: 4rem;
 }
 
-
 .volume-parent {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
 }
 
 .image-parent {
@@ -96,19 +93,15 @@
   line-height: normal;
 }
 
-.span-text{
-
-    color: #F9B341;
-text-align: center;
-font-family: Poppins;
-font-size: 1.125rem;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+.span-text {
+  color: #f9b341;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
-
-
-
 
 .podcast-categories {
   padding: 5vh 1.5vw 5vh 1.5vw;
