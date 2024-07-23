@@ -15,7 +15,7 @@ const Podcast = () => {
       </section>
 
       <section className="PodCast-Episodese">
-        <h2 className="podcast-page-heading">PodCast Episodes</h2>
+        <h2 className="podcast-page-heading">Podcast Episodes</h2>
 
         <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
           <SwiperSlide>
