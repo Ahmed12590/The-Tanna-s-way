@@ -29,19 +29,23 @@ const Footer = () => {
                   <NavLink to={`/`}>Home</NavLink>
                 </li>
                 <li className="footer-link">
-                  <NavLink to={`/`}>About us </NavLink>
+                  <NavLink to={`/about`}>About us </NavLink>
                 </li>
                 <li className="footer-link">
-                  <NavLink to={`/`}>E-Books</NavLink>
+                  <NavLink to={`/Store`}>Store</NavLink>
                 </li>
                 <li className="footer-link">
-                  <NavLink to={`/`}>Podcast Episodes</NavLink>
+                  <NavLink to={`/Ebook`}>E-Books</NavLink>
+                </li>
+
+                <li className="footer-link">
+                  <NavLink to={`/Podcast`}>Podcast Episodes</NavLink>
                 </li>
                 <li className="footer-link">
-                  <NavLink to={`/`}>Blog & News</NavLink>
+                  <NavLink to={`/Blogs`}>Blog & News</NavLink>
                 </li>
                 <li className="footer-link">
-                  <NavLink to={`/`}>Contact us </NavLink>
+                  <NavLink to={`/Contact`}>Contact us</NavLink>
                 </li>
               </ul>
             </div>

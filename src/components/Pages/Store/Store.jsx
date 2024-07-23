@@ -91,6 +91,10 @@ const Store = () => {
         </Container>
       </section>
 
+
+
+
+
       <section>
         <Container fluid>
           <div>
@@ -291,6 +295,8 @@ const Store = () => {
           </Row>
         </Container>
       </section>
+
+
 
       <section className="store-ads-section">
         <h1 className="ads-banner-heading"> Banner Ads Design </h1>
