@@ -27,13 +27,13 @@
   height: 3.6875rem;
   color: #f9b341;
   text-align: center;
-  font-family: Poppins Bold, sans-serif;
+  font-family: Poppins Medium, sans-serif;
   font-size: 3rem;
   font-style: normal;
-  font-weight: 800;
+  font-weight: 600;
   line-height: normal;
-  padding-top: 6rem;
-  padding-bottom: 6rem;
+  padding-top: 3rem;
+    padding-bottom: 6rem;
 }
 
 .voice-slider {
