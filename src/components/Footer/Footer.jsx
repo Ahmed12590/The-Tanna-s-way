@@ -121,7 +121,7 @@ const Footer = () => {
                   <img src={location} alt="location.svg" />
                 </div>
                 <div className="contact-location-text">
-                  <div>Lorem Ipsum</div>
+                  <div>Locatioxn-Street 16</div>
                 </div>
               </div>
               <div className="contact-parent-email">
@@ -149,3 +149,4 @@ const Footer = () => {
 };
 
 export default Footer;
+

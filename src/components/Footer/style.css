@@ -110,3 +110,18 @@ a {
 }
 .mt-3{
 filter: brightness(0);}
+
+
+
+.contact-location img:hover {
+    transform: scale(1.2);
+    filter: brightness(1.2);
+}
+.contact-emial img:hover {
+    transform: scale(1.2);
+    filter: brightness(1.2);
+}
+.contact-phone img:hover {
+    transform: scale(1.2);
+    filter: brightness(1.2);
+}
