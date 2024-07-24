@@ -1,15 +1,11 @@
 import "./style.css";
 import { Container, Row, Col } from "react-bootstrap";
 import Image from "./img/Group 74.png";
+import Banner from "../../Banner/Banner";
 const About = () => {
   return (
-   <main className="About">
-     <section className="main-about-section">
-        <h1 className="main-banner-heading">About Banner </h1>
-      </section>
-
-
-
+    <main className="About">
+      <Banner bannerTxt={`About Banner`} />
 
       <section className="second-about-section">
         <Container fluid>
@@ -48,9 +44,8 @@ const About = () => {
           </Row>
         </Container>
       </section>
+    </main>
+  );
+};
 
-   </main>
-  )
-}
-
-export default About
+export default About;

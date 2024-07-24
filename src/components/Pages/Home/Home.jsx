@@ -4,12 +4,12 @@ import Image from "./img/Group 74.png";
 import podcast from "./img/podcast img.png";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
+import ContactForm from "../../ContactFrom/ContactForm";
+import Banner from "../../Banner/Banner";
 const Home = () => {
   return (
     <main className="home">
-      <section className="main-section">
-        <h1 className="banner-heading">Banner Design</h1>
-      </section>
+      <Banner bannerTxt={`Banner Design`} />
 
       <section className="second-section">
         <Container fluid>
@@ -195,14 +195,18 @@ const Home = () => {
       </section>
 
       <section className="PodCast-Episodse">
-        <h2 className="podcast-heading">PodCast Episodes</h2>
+        <h2 className="podcast-heading">Podcast Episodes</h2>
 
         <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
           <SwiperSlide>
-            <div className="podcast-wrapper"><img src={podcast} alt="img/podcast img.png" /></div>
+            <div className="podcast-wrapper">
+              <img src={podcast} alt="img/podcast img.png" />
+            </div>
           </SwiperSlide>
           <SwiperSlide>
-          <div className="podcast-wrapper"><img src={podcast} alt="img/podcast img.png" /></div>
+            <div className="podcast-wrapper">
+              <img src={podcast} alt="img/podcast img.png" />
+            </div>
           </SwiperSlide>
         </Swiper>
       </section>
@@ -333,32 +337,7 @@ const Home = () => {
         </Container>
       </section>
 
-      <section className="Newsletter">
-        <div className="Newsletter-background">
-          <div className="Newsletter-col">
-            <h1 className="Newsletter-heading">Subscribe Our Newsletter</h1>
-            <p className="Newsletter-para">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-              praesent duis elementum eu risus nec.{" "}
-            </p>
-
-            <form action="">
-              <div
-                className="mb-3 text-center d-flex align-items-center justify-content-center position-relative"
-                style={{ maxWidth: "39.5625rem", margin: "auto" }}
-              >
-                <input
-                  type="email"
-                  name="email"
-                  id="email"
-                  placeholder="Enter Your Email Adress"
-                />
-                <button className="btn-subscribe">Subscribe</button>
-              </div>
-            </form>
-          </div>
-        </div>
-      </section>
+      <ContactForm />
     </main>
   );
 };

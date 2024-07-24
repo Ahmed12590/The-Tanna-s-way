@@ -8,5 +8,7 @@ import Podcast from "./Pages/Podcast";
 import Blogs from "./Pages/Blogs";
 import Store from "./Pages/Store";
 import Category from "./Pages/Category";
+import ContactForm from "./ContactFrom";
+import Banner from "./Banner";
 
-export {Header,Footer, Home, About, Contact, Ebook , Podcast,Store, Blogs, Category}
+export {Header,Footer, Home, About, Contact, Ebook , Podcast,Store, Blogs, Category, ContactForm, Banner}
