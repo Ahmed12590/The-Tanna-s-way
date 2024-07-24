@@ -9,7 +9,7 @@ const Header = () => {
         <ul className="site-logo">
           <li>
             <NavLink to={`/`}>
-              <img src={siteLogo} alt="site logo" />
+              <img src={siteLogo} alt="site logo" /> 
             </NavLink>
           </li>
         </ul>
