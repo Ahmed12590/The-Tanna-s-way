@@ -41,6 +41,7 @@
   align-items: center;
   justify-content: start;
   gap: 0.5rem;
+  filter: brightness(0);
 }
 
 .social-parent-tiktok {
@@ -56,6 +57,7 @@
   justify-content: start;
   gap: 0.5rem;
   padding-top: 1rem;
+  filter: brightness(0);
 }
 
 .contact-heading {
@@ -90,38 +92,38 @@
   gap: 0.5rem;
   padding-top: 1rem;
 }
+
 .social-links img:hover {
   transform: scale(1.1);
-  filter: brightness(1.2);
 }
+
 .social-tiktok img:hover {
   transform: scale(1.1);
-  filter: brightness(1.2);
 }
+
 .social-pinterest img:hover {
   transform: scale(1.1);
-  filter: brightness(1.2);
 }
+
 a {
   color: rgba(var(--bs-link-color-rgb), var(--bs-link-opacity, 1));
   text-decoration: underline;
   text-decoration: none;
   color: #333;
 }
-.mt-3{
-filter: brightness(0);}
-
 
 
 .contact-location img:hover {
-    transform: scale(1.2);
-    filter: brightness(1.2);
+  transform: scale(1.2);
 }
 .contact-emial img:hover {
-    transform: scale(1.2);
-    filter: brightness(1.2);
+  transform: scale(1.2);
 }
-.contact-phone img:hover {
-    transform: scale(1.2);
-    filter: brightness(1.2);
+.contact-phone img:hover {  
+  transform: scale(1.2);
+}
+
+::selection {
+  background: blue !important;  
+  color: white !important;
 }

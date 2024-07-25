@@ -39,11 +39,9 @@
 .store-backgorund-color {
   width: 100%;
 
-  
   background: linear-gradient(233deg, #411e4d 31.1%, #9746b3 93.89%);
   display: flex;
   padding-top: 5rem;
- 
 }
 .store-trending-wrapper {
   display: flex;
@@ -60,78 +58,73 @@
   box-shadow: 0px 4px 35px 2px rgba(0, 0, 0, 0.25);
 }
 
-.trending-btn-parent{
-    display: flex;
-align-items: center;
-justify-content: center;
-padding-top: 2rem;
-padding-bottom: 2rem;
+.trending-btn-parent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
-.trending-button{
-color: #F9B341;
-text-align: center;
-font-family: Poppins;
-font-size: 1.5rem;
-font-style: normal;
-font-weight: 400;
-line-height: 109.5%; 
-background-color: transparent;
-border: none;
+.trending-button {
+  color: #f9b341;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 109.5%;
+  background-color: transparent;
+  border: none;
 }
 
-.category-section{
-width: 100%;
+.category-section {
+  width: 100%;
 }
-.store-category{
-    padding-bottom: 2rem;
+.store-category {
+  padding-bottom: 2rem;
 }
 .category-heading {
-    
-    color: #f9b341;
-    text-align: center;
-    font-family: Poppins Bold, sans-serif;
-    font-size: 3rem;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 109.5%;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-   
-  }
+  color: #f9b341;
+  text-align: center;
+  font-family: Poppins Bold, sans-serif;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 109.5%;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
 
-
-.store-Category-wrapper{
-    display: flex;
+.store-Category-wrapper {
+  display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 1rem;
 }
 
-
-  .store-Category-col{
-    width: 100%;
-    height: 24.5625rem;
-    border-radius: 0rem 6.25rem;
-    background: linear-gradient(224deg, #411e4d 0.32%, #9746b3 99.68%);
-    box-shadow: 0px 4px 35px 2px rgba(0, 0, 0, 0.25);
-    
+.store-Category-col {
+  width: 100%;
+  height: 24.5625rem;
+  border-radius: 0rem 6.25rem;
+  background: linear-gradient(224deg, #411e4d 0.32%, #9746b3 99.68%);
+  box-shadow: 0px 4px 35px 2px rgba(0, 0, 0, 0.25);
 }
-.trending-col{
-    padding-bottom: 3rem;
+.trending-col {
+  padding-bottom: 3rem;
 }
-.trending-text{
-    color: #F9B341;
-text-align: center;
-font-family: Poppins Regular, sans-serif;
-font-size: 1.375rem;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+.trending-text {
+  color: #f9b341;
+  text-align: center;
+  font-family: Poppins Regular, sans-serif;
+  font-size: 1.375rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
-.trending-price{
-    width: 12.75rem;
+.trending-price {
+  width: 12.75rem;
   color: #f9b341;
   text-align: center;
   font-family: Poppins Light, sans-serif;
@@ -141,25 +134,25 @@ line-height: normal;
   line-height: 120%;
 }
 
-.Arrival-heading{
-    color: #f9b341;
-    text-align: center;
-    font-family: Poppins Bold, sans-serif;
-    font-size: 3rem;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 109.5%;
-    padding-top: 3rem;
-    padding-bottom: 3rem;  
+.Arrival-heading {
+  color: #f9b341;
+  text-align: center;
+  font-family: Poppins Bold, sans-serif;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 109.5%;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 
-.arrival-wrapper-box{
-    display: flex;
+.arrival-wrapper-box {
+  display: flex;
   align-items: center;
   justify-content: center;
 }
 .arrival-box {
-    width: 24.4375rem;
+  width: 24.4375rem;
   height: 24.5625rem;
   border-radius: 0rem 6.25rem;
   background: linear-gradient(224deg, #411e4d 0.32%, #9746b3 99.68%);
@@ -167,46 +160,38 @@ line-height: normal;
   display: flex;
   align-items: flex-end;
   justify-content: center;
-  
 }
-.arrival-price{
-    color: #f9b341;
-    text-align: center;
-    padding: 0 1rem;
-    font-family: Poppins Light, sans-serif;
-    font-size: 1.25rem;
-    font-style: normal;
-    font-weight: 300;
-    line-height: 120%;
-    border: 1px solid #F9B341;
-    border-radius: 20px;
-}
-
-
-
-
-
-
-
-.store-ads-section{
-    height: 31.25rem;
-    background: linear-gradient(233deg, #411E4D 19.75%, #9746B3 93.89%);
-display: flex;
-align-items: center;
-justify-content: center;
-margin-top: 5rem;
+.arrival-price {
+  color: #f9b341;
+  text-align: center;
+  padding: 0 1rem;
+  font-family: Poppins Light, sans-serif;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 120%;
+  border: 1px solid #f9b341;
+  border-radius: 20px;
 }
 
-.ads-banner-heading{
-   
-    height: 2.9375rem;
-    color: #F9B341;
-text-align: center;
-font-family: Poppins Medium, sans-serif;
-font-size: 3rem;
-font-style: normal;
-font-weight: 700;
-line-height: 109.5%; 
+.store-ads-section {
+  height: 31.25rem;
+  background: linear-gradient(233deg, #411e4d 19.75%, #9746b3 93.89%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5rem;
+}
+
+.ads-banner-heading {
+  height: 2.9375rem;
+  color: #f9b341;
+  text-align: center;
+  font-family: Poppins Medium, sans-serif;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 109.5%;
 }
 .advertisement-banner {
   background: linear-gradient(84deg, #f1b749 2.98%, #dda23a 74.69%);
@@ -222,14 +207,14 @@ line-height: 109.5%;
 }
 
 .customers-review’s-head-txt {
-height: 2.9375rem;
-    color: #F9B341;
-    text-align: center;
-    font-family: Poppins Extra Bold, sans-serif;
-    font-size: 3rem;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 109.5%; 
+  height: 2.9375rem;
+  color: #f9b341;
+  text-align: center;
+  font-family: Poppins Extra Bold, sans-serif;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 109.5%;
 }
 
 .testimonial-wrapper {
@@ -275,9 +260,9 @@ height: 2.9375rem;
   width: 9.5rem;
   height: 2.875rem;
   border-radius: 1.4375rem;
-  border: 1px solid #F9B341;
+  border: 1px solid #f9b341;
   background: rgba(217, 217, 217, 0);
-  color: #F9B341;
+  color: #f9b341;
   font-family: okemah bold, sans-serif;
   font-size: 1.125rem;
   font-style: normal;
@@ -290,7 +275,4 @@ height: 2.9375rem;
   font-size: 1.125rem;
   font-style: normal;
   line-height: normal;
-}
-.mt-3 {
-  filter: brightness(0);
 }
