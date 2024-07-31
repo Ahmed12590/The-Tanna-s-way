@@ -6,11 +6,56 @@ import rating from "./img/star.svg";
 import { Col, Container, NavLink, Row } from "react-bootstrap";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { FreeMode, Navigation, Autoplay } from "swiper/modules";
-
-
-import React from "react";
+import axios from "axios";
+import React, { useState, useEffect } from "react";
 
 const Store = () => {
+  const [products, setProducts] = useState([]);
+
+  useEffect(() => {
+    const fetchProducts = async () => {
+      try {
+        const response = await axios.post(
+          `https://467d4c-d3.myshopify.com/api/2023-07/graphql.json`,
+          {
+            query: `{
+                      products(first: 9 {
+                      edges {
+                          node {
+                          id
+                          title
+                          description
+                          images(first: 1) {
+                              edges {
+                              node {
+                                  src
+                                  altText
+                              }
+                              }
+                          }
+                          }
+                      }
+                      }
+                  }
+                  `,
+          },
+          {
+            headers: {
+              "Content-Type": "application/json",
+              "X-Shopify-Storefront-Access-Token":
+                "fc433cdedd9bcae53fe60446a688962e",
+            },
+          }
+        );
+        setProducts(response.data.data.products.edges);
+        console.log(response.data.data.products.edges);
+      } catch (error) {
+        console.error("Error fetching products:", error);
+      }
+    };
+
+    fetchProducts();
+  }, []);
   return (
     <main>
       <section className="store-section">
@@ -28,6 +73,16 @@ const Store = () => {
       <section className="store-backgorund-color">
         <Container fluid>
           <Row>
+            {products.map((product) => (
+              <Col xs={12} md={12} lg={4} className="trending-col">
+                <div className="store-trending-wrapper">
+                  <div className="store-trending-col">
+                    <img src={product.node.images.edges[0].node.src} alt={product.node.images.edges[0].node.altText || 'Product Image'}  style={{width:"100%"}}/>
+                  </div>
+                  <div className="trending-body ms-3"></div>
+                </div>
+              </Col>
+            ))}
             <Col xs={12} md={12} lg={4} className="trending-col">
               <div className="store-trending-wrapper">
                 <div className="store-trending-col"></div>
@@ -71,12 +126,6 @@ const Store = () => {
               </div>
             </Col>
             <Col xs={12} md={12} lg={4} className="trending-col">
-              <div className="store-trending-wrapper">
-                <div className="store-trending-col"></div>
-                <div className="trending-body ms-3"></div>
-              </div>
-            </Col>
-            <Col xs={12} md={12} lg={4} className="trending-col">  
               <div className="store-trending-wrapper">
                 <div className="store-trending-col"></div>
                 <div className="trending-body ms-3"></div>
@@ -90,10 +139,6 @@ const Store = () => {
           </div>
         </Container>
       </section>
-
-
-
-
 
       <section>
         <Container fluid>
@@ -295,8 +340,6 @@ const Store = () => {
           </Row>
         </Container>
       </section>
-
-
 
       <section className="store-ads-section">
         <h1 className="ads-banner-heading"> Banner Ads Design </h1>
