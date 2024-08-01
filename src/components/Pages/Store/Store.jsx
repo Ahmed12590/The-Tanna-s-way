@@ -48,7 +48,7 @@ const Store = () => {
           }
         );
         setProducts(response.data.data.products.edges);
-        console.log(response.data.data.products.edges);
+        console.log(response.data.data.products.edges); 
       } catch (error) {
         console.error("Error fetching products:", error);
       }
@@ -516,7 +516,7 @@ const Store = () => {
               <div className="review-wrapper">
                 <p className="review">
                   Lorem ipsum dolor sit amet consectetur. Duis senectus
-                  pellentesque non id nulla non aenean.
+                  pellentesque non id nulla non aenean
                 </p>
               </div>
             </div>
