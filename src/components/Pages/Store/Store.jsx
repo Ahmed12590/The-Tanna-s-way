@@ -84,8 +84,8 @@ const Store = () => {
                       }
                       style={{
                         width: "100%",
-                        borderTopRightRadius: "70px",
-                        borderBottomLeftRadius: "70px",
+                        borderTopRightRadius: "90px",
+                        borderBottomLeftRadius: "90px",
                       }}
                     />
                   </div>
