@@ -94,60 +94,7 @@ const Store = () => {
               </Col>
             ))}
 
-            <Col xs={12} md={12} lg={4} className="trending-col">
-              <div className="store-trending-wrapper">
-                <div className="store-trending-col"></div>
-                <div className="trending-body ms-3"></div>
-              </div>
-            </Col>
-            <Col xs={12} md={12} lg={4} className="trending-col">
-              <div className="store-trending-wrapper">
-                <div className="store-trending-col"></div>
-                <div className="trending-body ms-3"></div>
-              </div>
-            </Col>
-            <Col xs={12} md={12} lg={4} className="trending-col">
-              <div className="store-trending-wrapper">
-                <div className="store-trending-col"></div>
-                <div className="trending-body ms-3"></div>
-              </div>
-            </Col>
-            <Col xs={12} md={12} lg={4} className="trending-col">
-              <div className="store-trending-wrapper">
-                <div className="store-trending-col"></div>
-                <div className="trending-body ms-3"></div>
-              </div>
-            </Col>
-            <Col xs={12} md={12} lg={4} className="trending-col">
-              <div className="store-trending-wrapper">
-                <div className="store-trending-col"></div>
-                <div className="trending-body ms-3"></div>
-              </div>
-            </Col>
-            <Col xs={12} md={12} lg={4} className="trending-col">
-              <div className="store-trending-wrapper">
-                <div className="store-trending-col"></div>
-                <div className="trending-body ms-3"></div>
-              </div>
-            </Col>
-            <Col xs={12} md={12} lg={4} className="trending-col">
-              <div className="store-trending-wrapper">
-                <div className="store-trending-col"></div>
-                <div className="trending-body ms-3"></div>
-              </div>
-            </Col>
-            <Col xs={12} md={12} lg={4} className="trending-col">
-              <div className="store-trending-wrapper">
-                <div className="store-trending-col"></div>
-                <div className="trending-body ms-3"></div>
-              </div>
-            </Col>
-          </Row>
-          <div className="trending-btn-parent">
-            <NavLink>
-              <button className="trending-button">Load More</button>{" "}
-            </NavLink>
-          </div>
+            </Row>
         </Container>
       </section>
 
