@@ -424,7 +424,7 @@ const Store = () => {
                 <button className="btn-testimonial">John David</button>
               </div>
 
-              <div className="ratting-wrapper">
+              <div className="ratting-wrapper"> 
                 <img src={rating} alt="star.svg" />
                 <small className="ratting">5.0</small>
               </div>
