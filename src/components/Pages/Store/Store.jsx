@@ -90,6 +90,7 @@ const Store = () => {
                     />
                   </div>
                   <div className="trending-body ms-3"></div>
+                  <h3>{product.node.title}</h3>
                 </div>
               </Col>
             ))}
