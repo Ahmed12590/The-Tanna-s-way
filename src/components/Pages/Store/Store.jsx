@@ -20,25 +20,25 @@ const Store = () => {
           {
             query: `{
                       products(first: 9) {
-                               edges {
-                                    node {
-                                        id
-                                         title
-                                              images(first: 1) {
-                                                    edges {
-                                                         node {
-                                                               src
-                                                                  altText
-                                                                          }
-                                                                             }
-                                                                               }
-                                                                                }
-                                                                                 }
-                                                                                  }
-                                                                                   }
-                                                                                   `,
-                                                                                   },
-                                                                                     {
+                       edges {
+                         node {
+                           id
+                            title
+                              images(first: 1) {
+                                edges {
+                                  node {
+                                     src
+                                      altText
+                                        }
+                                          }
+                                           }
+                                            }
+                                             }
+                                              }
+                                               }
+                                               `,
+          },
+          {
             headers: {
               "Content-Type": "application/json",
               "X-Shopify-Storefront-Access-Token":
@@ -47,7 +47,7 @@ const Store = () => {
           }
         );
         setProducts(response.data.data.products.edges);
-        console.log(response.data.data.products.edges); 
+        console.log(response.data.data.products.edges);
       } catch (error) {
         console.error("Error fetching products:", error);
       }
@@ -76,7 +76,14 @@ const Store = () => {
               <Col xs={12} md={12} lg={4} className="trending-col">
                 <div className="store-trending-wrapper">
                   <div className="store-trending-col">
-                    <img src={product.node.images.edges[0].node.src} alt={product.node.images.edges[0].node.altText || 'Product Image'}  style={{width:"100%"}}/>
+                    <img
+                      src={product.node.images.edges[0].node.src}
+                      alt={
+                        product.node.images.edges[0].node.altText ||
+                        "Product Image"
+                      }
+                      style={{ width: "100%" }}
+                    />
                   </div>
                   <div className="trending-body ms-3"></div>
                 </div>
@@ -423,7 +430,7 @@ const Store = () => {
                 <button className="btn-testimonial">John David</button>
               </div>
 
-              <div className="ratting-wrapper"> 
+              <div className="ratting-wrapper">
                 <img src={rating} alt="star.svg" />
                 <small className="ratting">5.0</small>
               </div>
