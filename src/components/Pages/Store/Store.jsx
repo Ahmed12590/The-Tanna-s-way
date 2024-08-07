@@ -94,8 +94,7 @@ const Store = () => {
                 </div>
               </Col>
             ))}
-
-            </Row>
+          </Row>
         </Container>
       </section>
 
