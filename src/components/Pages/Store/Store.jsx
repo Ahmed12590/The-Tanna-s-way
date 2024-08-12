@@ -19,24 +19,24 @@ const Store = () => {
           `https://467d4c-d3.myshopify.com/api/2023-07/graphql.json`,
           {
             query: `{
-                      products(first: 9) {
-                       edges {
-                         node {
-                           id
-                            title
-                              images(first: 1) {
-                                edges {
-                                  node {
-                                     src
-                                      altText
+                     products(first: 9) {
+                     edges {
+                        node {
+                         id
+                          title
+                             images(first: 1) {
+                               edges {
+                                 node {
+                                    src
+                                     altText
+                                      }
                                         }
-                                          }
+                                         }
+                                           }
                                            }
                                             }
                                              }
-                                              }
-                                               }
-                                               `,
+                                              `,
           },
           {
             headers: {
