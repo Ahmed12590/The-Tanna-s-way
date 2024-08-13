@@ -9,7 +9,7 @@ const Header = () => {
         <ul className="site-logo">
           <li>
             <NavLink to={`/`}>
-              <img src={siteLogo} alt="site logo" /> 
+              <img src={siteLogo} alt="site logo" />
             </NavLink>
           </li>
         </ul>
@@ -22,8 +22,15 @@ const Header = () => {
             <NavLink to={`/about`}>About</NavLink>
           </li>
           <li>
-            <NavLink to={`/Store`}>Store</NavLink>
+            <a
+              href="https://467d4c-d3.myshopify.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Store
+            </a>
           </li>
+
           <li>
             <NavLink to={`/Ebook`}>E-Books</NavLink>
           </li>
@@ -43,7 +50,7 @@ const Header = () => {
         <input type="checkbox" id="checkbox" />
         <ul class="mob d-flex align-items-center justify-content-between">
           <li class="mob-logo">
-            <NavLink to="./index.html"> 
+            <NavLink to="./index.html">
               <img src={siteLogo} alt="site logo" />
             </NavLink>
           </li>
@@ -57,50 +64,34 @@ const Header = () => {
           </li>
         </ul>
 
-
         <ul class="mobile-inner">
           <li>
-            <NavLink to={`/`}>
-              Home
-            </NavLink>
+            <NavLink to={`/`}>Home</NavLink>
           </li>
 
           <li>
-            <NavLink to={`/about`}>
-              About
-            </NavLink>
+            <NavLink to={`/about`}>About</NavLink>
           </li>
 
           <li>
-            <NavLink to={`/store`}>
-              Store
-            </NavLink>
+            <NavLink to={`/store`}>Store</NavLink>
           </li>
 
           <li>
-            <NavLink to={`/e-books`}>
-              E-Books
-            </NavLink>
+            <NavLink to={`/e-books`}>E-Books</NavLink>
           </li>
 
           <li>
-            <NavLink to={`/podcast-episodes`}>
-              Podcast Episodes
-            </NavLink>
+            <NavLink to={`/podcast-episodes`}>Podcast Episodes</NavLink>
           </li>
 
           <li>
-            <NavLink to={`/blog-&-news`}>
-              Blog & News
-            </NavLink>
+            <NavLink to={`/blog-&-news`}>Blog & News</NavLink>
           </li>
 
           <li>
-            <NavLink to={`/contact-us`}>
-              Contact Us
-            </NavLink>
+            <NavLink to={`/contact-us`}>Contact Us</NavLink>
           </li>
-
         </ul>
       </nav>
     </header>
