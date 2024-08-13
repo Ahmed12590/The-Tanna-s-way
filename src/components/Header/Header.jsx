@@ -22,15 +22,8 @@ const Header = () => {
             <NavLink to={`/about`}>About</NavLink>
           </li>
           <li>
-            <a
-              href="https://467d4c-d3.myshopify.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Store
-            </a>
+            <NavLink to={`https://467d4c-d3.myshopify.com/`}>Store</NavLink>
           </li>
-
           <li>
             <NavLink to={`/Ebook`}>E-Books</NavLink>
           </li>
