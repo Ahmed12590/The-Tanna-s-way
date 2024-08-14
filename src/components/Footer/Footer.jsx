@@ -32,7 +32,7 @@ const Footer = () => {
                   <NavLink to={`/about`}>About us </NavLink>
                 </li>
                 <li className="footer-link">
-                  <NavLink to={`/Store`}>Store</NavLink>
+                <NavLink to={`https://467d4c-d3.myshopify.com/`}>Store</NavLink>
                 </li>
                 <li className="footer-link">
                   <NavLink to={`/Ebook`}>E-Books</NavLink>
