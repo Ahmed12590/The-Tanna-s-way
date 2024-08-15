@@ -20,7 +20,6 @@ const Category = () => {
           </div>
         </Container>
       </section>
-
       <section>
         <Container fluid>
           <Row>
