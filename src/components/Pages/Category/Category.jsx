@@ -91,6 +91,8 @@ const Category = () => {
         </Container>
       </section>
     </main>
+
+    
   );
 };
 
