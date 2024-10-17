@@ -17,6 +17,9 @@ const About = () => {
 
 
 
+
+
+
             <Col xs={12} md={12} lg={6}>
               <h1 className="second-about-heading">About us </h1>
               <p className="second-about-para">
