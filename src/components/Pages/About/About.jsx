@@ -50,6 +50,8 @@ const About = () => {
           </Row>
         </Container>
 
+
+
         
       </section>
     </main>
