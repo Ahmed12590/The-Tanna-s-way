@@ -7,6 +7,9 @@ const About = () => {
     <main className="About">
       <Banner bannerTxt={`About Banner`} />
 
+
+
+
       <section className="second-about-section">
         <Container fluid>
           <Row>
